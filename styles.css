@@ -26,9 +26,14 @@
 }
 
 
-    
+.score {
+    display: flex;
+    margin: 50px 0 100px 0;
+}
 
-
+.players-info2 {
+    margin-left: auto;
+}
 /* 
 
 /* .player1, .score1 {
@@ -90,10 +95,13 @@ margin: auto;
     color: white;
     width: 400px;
     display: center;
+    margin: 25px auto;
    }
 
 
-
+.answers {
+    margin-top: 45px;
+}
 
 
 body {
