@@ -20,23 +20,26 @@
 
     var questions = [
         {
-        question: "How many Championships does Kobe Bryant have?",
+        
+            question: "Who was one of the original founders of Apple?" ,
+            answers:  {
+                        a: "Steve Jobs",
+                        b:  "Bill Gates",
+                        c:  "Elon Musk",
+                        d:  "Mickey Mouse",
+        
+                    },
+                    correctAnswer:  "Steve Jobs"
+        },{
+                        question: "In what city was Starbucks created?",
         answers:    {
-                    a: "5",
-                    b: "4",
-                    c: "0",
-                    d: "2",
+                    a: "Los Angeles",
+                    b: "Seattle",
+                    c: "New York",
+                    d: "Miami",
         },
-        correctAnswer:  "5"
-    },{
-        question: "Who wore the number 2 for the New York Yankees?" ,
-        answers:  {
-                    a: "Shaq",
-                    b:  "Mickey Mouse",
-                    c:  "Alex Rodriguez",
-                    d:  "Derek Jeter",
-        },
-        correctAnswer:  "Derek Jeter"
+                    correctAnswer:  "Seattle"
+    
     },{
         question: "who won the 2018 Super Bowl?",
         answers:  {
@@ -45,16 +48,16 @@
                     c:  "Eagles",
                     d:  "49ers",
         },
-        correctAnswer:  "Eagles"
+                correctAnswer:  "Eagles"
     },{
-        question: "How many Super Bowl rings does Tom Brady have?" ,
+        question: "How old was Mark Zuckerberg when he created Facebook?",
         answers:  {
-                    a:  "2",
-                    b:  "3",
-                    c:  "5",
-                    d:  "none",
+                    a:  "19",
+                    b:  "20",
+                    c:  "23",
+                    d:  "10",
         },
-        correctAnswer:  "5"
+        correctAnswer:  "19"
     }];
     alert("Player One Turn")
     // 
