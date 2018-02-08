@@ -64,7 +64,9 @@
         correctAnswer:  "19"
     
     }];
-    alert("Player One Turn")
+    
+    
+    swal("Player One Turn", "Good Luck!!");
     
     
     //how each answer is selected and how score is calculated and displayed
@@ -82,10 +84,10 @@
             changeQuestion()
         } else {
             if(incorrectAnswers == 0 ) {
-                alert("you are not correct! you have one more try!")
+                swal("You are not correct!", "You have one more try!")
                 incorrectAnswers +=1
             } else if(incorrectAnswers > 0){
-                alert("incorrect again!")
+                swal("Incorrect Again!", "Next Question")
                 changeQuestion()
             }
         }
@@ -97,7 +99,7 @@
 
     }
 
-    // 
+    // function on when to change to next question
     function changeQuestion() {
         if(questionIndex < questions.length) {
             currentQuestion = questions[questionIndex]
@@ -111,7 +113,7 @@
             
         } else if (currentPlayer == 1) {
             switchTurns()
-            alert("It is now Player Two Turn!")
+            swal("It is now Player Two Turn!", "Good Luck!")
             changeQuestion()
         } else if(currentPlayer == 2) {
             showResults()
@@ -120,7 +122,7 @@
     }
     changeQuestion()
 
-    // 
+    // function on switching turns to next player 
     function switchTurns() {
         incorrectAnswers = 0
         questionIndex = 0
@@ -139,12 +141,12 @@
 
     }
     
-    // 
+    // name a winner 
     function showResults() {
         if(playerOneScore > playerTwoScore){
-            alert("PLAYER ONE IS THE WINNER")
+            swal("PLAYER ONE IS THE WINNER!!", "Congratulations!!!!")
         } else if(playerTwoScore > playerOneScore) {
-            alert("PLAYER TWO IS THE WINNER")
+            swal("PLAYER TWO IS THE WINNER", "Congratulations")
         }
         
         
