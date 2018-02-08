@@ -1,25 +1,26 @@
 
 
 .title {
-    background-color: #696969;
-    border: 2px solid black;
-    color: gold;
+    
+    border: 2px solid rgb(139, 90, 0);
+    color: white;
     font-style: bold;
-    padding: 15px 32px;
+    padding: 25px 32px;
     text-align: center;
     font-size: 40px;
     margin: auto;
     width: 400px;
     height: 50px;
+    background: navy;
     
     
 }
 
 .player1, .score1, .player2, .score2 {
-    border: 2px solid gold;
+    border: 2px solid rgb(139, 90, 0);
     width: 100px;
     height: 40px;
-    background: black;
+    background: navy;
     color: white;
 
     
@@ -28,74 +29,44 @@
 
 .score {
     display: flex;
-    margin: 50px 0 100px 0;
+    margin: 20px 50px;
 }
 
 .players-info2 {
     margin-left: auto;
 }
-/* 
-
-/* .player1, .score1 {
-/* background-color: black;
-border: 2px solid yellow;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: auto; 
-
-
-
-} 
-/* .player2, .score2 {
-    /* background-color: black;
-    border: 2px solid yellow;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: auto;
-    float: right; */ 
-
- /* }    */
-
 
         
 
 
 .question-title {
    
-    border: 1px solid gold;
-    background: gold;
-    color: black;
-    padding: 20px 30px;
+    border: 10px solid rgb(139, 90, 0);
+    color: white;
+    padding: 0px 30px;
     text-align: center;
     font-size: 25px;
     width: 500px;
     height: 100px;
     display: center;
     margin: auto;
-    border-radius: 70px;
+    background: navy
     
    }
 
 .answer1, .answer2, .answer3, .answer4 { 
 
-    border: 4px solid gold;
+    border: 4px solid rgb(139, 90, 0);
     cursor: pointer;
     text-align: center;
     margin: auto;
     padding: 30px;
     font-size: 20px;
-    background-color: black;
     color: white;
     width: 400px;
     display: center;
-    margin: 25px auto;
+    margin: 9px auto;
+    background: navy;
    }
 
 
@@ -105,7 +76,7 @@ margin: auto;
 
 
 body {
-    background-image: url("https://i.pinimg.com/736x/8b/d4/1d/8bd41d5f2429de283fb91eec489c9bb6--san-diego-art-photography.jpg");
+    background-image: url("https://img1.etsystatic.com/169/0/13392950/il_fullxfull.1180147577_gf79.jpg");
     background-size: cover;
 
 }
@@ -113,5 +84,5 @@ body {
 
     
 .answers div:hover {
-    background-color: darkred;
+    background-color: rgb(139, 90, 0);
 }

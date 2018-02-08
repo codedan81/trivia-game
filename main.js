@@ -25,7 +25,7 @@
             answers:  {
                         a: "Steve Jobs",
                         b:  "Bill Gates",
-                        c:  "Elon Musk",
+                        c:  "Paul Allen",
                         d:  "Mickey Mouse",
         
                     },
@@ -41,14 +41,14 @@
                     correctAnswer:  "Seattle"
     
     },{
-        question: "who won the 2018 Super Bowl?",
+        question: "Besides Tesla and SpaceX, what was one of the first companies Elon Musk created?",
         answers:  {
-                    a: "Patriots",
-                    b:  "Steelers",
-                    c:  "Eagles",
-                    d:  "49ers",
+                    a: "Amazon",
+                    b: "PayPal",
+                    c: "MySpace",
+                    d: "Tinder",
         },
-                correctAnswer:  "Eagles"
+                correctAnswer:  "PayPal"
     },{
         question: "How old was Mark Zuckerberg when he created Facebook?",
         answers:  {
@@ -58,6 +58,7 @@
                     d:  "10",
         },
         correctAnswer:  "19"
+    
     }];
     alert("Player One Turn")
     // 
