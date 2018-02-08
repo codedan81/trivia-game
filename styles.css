@@ -1,0 +1,109 @@
+
+
+.title {
+    background-color: #696969;
+    border: 2px solid black;
+    color: gold;
+    font-style: bold;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    
+    
+}
+
+.player1, .score1, .player2, .score2 {
+    border: 2px solid gold;
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: white;
+
+    
+}
+
+
+    
+
+
+/* 
+
+/* .player1, .score1 {
+/* background-color: black;
+border: 2px solid yellow;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: auto; 
+
+
+
+} 
+/* .player2, .score2 {
+    /* background-color: black;
+    border: 2px solid yellow;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: auto;
+    float: right; */ 
+
+ /* }    */
+
+
+        
+
+
+.question-title {
+   
+    border: 1px solid gold;
+    background: gold;
+    color: black;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 25px;
+    width: 500px;
+    height: 100px;
+    display: center;
+    margin: auto;
+    border-radius: 70px;
+    
+   }
+
+.answer1, .answer2, .answer3, .answer4 { 
+
+    border: 4px solid gold;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    display: center;
+   }
+
+
+
+
+
+body {
+    background-image: url("https://i.pinimg.com/736x/8b/d4/1d/8bd41d5f2429de283fb91eec489c9bb6--san-diego-art-photography.jpg");
+    background-size: cover;
+
+}
+
+
+    
+.answers div:hover {
+    background-color: darkred;
+}
