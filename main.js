@@ -18,6 +18,10 @@
     var currentPlayer = 1
     var incorrectAnswers = 0
 
+
+
+
+    //questions each player will take turns answering
     var questions = [
         {
         
@@ -61,7 +65,11 @@
     
     }];
     alert("Player One Turn")
-    // 
+    
+    
+    //how each answer is selected and how score is calculated and displayed
+    //also how the computer will know to switch to next question based on what answer selected 
+    
     function answerClickHandler(){
         if(this.innerText == currentQuestion.correctAnswer){
             if(currentPlayer == 1){
@@ -83,7 +91,7 @@
         }
     }
 
-    // 
+    // loop that determines the way answers are selected 
     for(var i =0; i<answerBoxes.length; i++) {
         answerBoxes[i].addEventListener("click", answerClickHandler)
 
