@@ -27,6 +27,7 @@ The object of the game is:
 Some of the Challenges I had:
 
 - The creative process; thinking of how I wanted the game to function
+- Getting the Game the questions to reset 
 - CSS!! 
 - Putting my thoughts of how the game should be and translating it to a code. 
  

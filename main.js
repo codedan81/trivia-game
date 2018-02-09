@@ -103,7 +103,7 @@
         }
     }
 
-    // loop that determines the way answers are selected 
+    // determines the way answers are selected 
     for(var i =0; i<answerBoxes.length; i++) {
         answerBoxes[i].addEventListener("click", answerClickHandler)
 
@@ -118,6 +118,7 @@
             answerTwo.text(currentQuestion.answers.b)
             answerThree.text(currentQuestion.answers.c)
             answerFour.text(currentQuestion.answers.d)
+        
             questionIndex += 1
             
             
