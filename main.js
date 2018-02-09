@@ -1,4 +1,6 @@
 
+    //created variables 
+    
     var score;
     var submit;
     var answers;
@@ -62,7 +64,15 @@
                     d:  "10",
         },
         correctAnswer:  "19"
-    
+    },{
+        question: "What year did Neil Armstrong become the first person to land on the Moon?",
+        answers: {
+                  a: "1969",
+                  b: "1975",
+                  c: "1990",
+                  d: "Who is Neil Armstrong?",
+    },
+        correctAnswer: "1969"   
     }];
     
     
@@ -117,6 +127,7 @@
             changeQuestion()
         } else if(currentPlayer == 2) {
             showResults()
+         
             
         }
     }
@@ -148,8 +159,11 @@
         } else if(playerTwoScore > playerOneScore) {
             swal("PLAYER TWO IS THE WINNER", "Congratulations")
         }
-        
-        
-    }
+          
+}
+
+
+
+
         
     
