@@ -28,6 +28,6 @@ The object of the game is:
 
 
 
-[Trivia Game]("https://codedan81.github.io/trivia-game/")
+[link]("https://codedan81.github.io/trivia-game/")
 
 
