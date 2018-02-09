@@ -2,7 +2,6 @@
     //created variables needed to complete game
     
     var score;
-    var submit;
     var answers;
     var questionIndex = 0
     var currentQuestion;
@@ -103,7 +102,7 @@
         }
     }
 
-    // determines the way answers are selected 
+    // answers are selected 
     for(var i =0; i<answerBoxes.length; i++) {
         answerBoxes[i].addEventListener("click", answerClickHandler)
 
@@ -121,7 +120,6 @@
         
             questionIndex += 1
             
-            
         } else if (currentPlayer == 1) {
             switchTurns()
             swal("It is now Player Two Turn!", "Good Luck!")
@@ -132,7 +130,7 @@
             
         }
     }
-    changeQuestion()
+        changeQuestion()
 
     // function on switching turns to next player 
     function switchTurns() {

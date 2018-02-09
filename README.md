@@ -7,7 +7,7 @@ The object of the game is:
  - Two Players go head to head.
  - Each player gets a turn to answer all of the questions.
  - If you get an answer wrong, you get one additional attempt to get the answer correct.
- - Each right answer is scored a point. 
+ - Each correct answer is scored a point. 
  - At the end of the game, the Player with the most points win.
 
 # Technologies Used
