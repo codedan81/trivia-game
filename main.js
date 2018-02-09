@@ -1,5 +1,5 @@
 
-    //created variables 
+    //created variables needed to complete game
     
     var score;
     var submit;
@@ -79,7 +79,7 @@
     swal("Player One Turn", "Good Luck!!");
     
     
-    //how each answer is selected and how score is calculated and displayed
+    //function for how each answer is selected and how score is calculated and displayed
     //also how the computer will know to switch to next question based on what answer selected 
     
     function answerClickHandler(){

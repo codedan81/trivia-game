@@ -43,6 +43,7 @@ Some of the Challenges I had:
 - a button to auto reset game once completed
 - different set of questions for player 2 to answer
 - a timer 
+- add more CSS to make it more interactive
 
 
 
