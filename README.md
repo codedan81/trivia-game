@@ -26,6 +26,8 @@ The object of the game is:
 
 - I wanted to create a trivia game with question/answer options anyone could play.  I wanted to keep it simple and not over complicate what I wanted to accomplish. Most importantly, I wanted to take this as an opportunity to apply what I have learned so far in my new found journey into coding, and come out of the making of this project with more knowledge and understanding of HTML/CSS/JavaScript/jQuery than I had going into the beginning of this process.  I look forward to learning new, exciting things and creating more projects. 
 
-#Link to Trivia Game 
+
+
+[Trivia Game]("https://codedan81.github.io/trivia-game/")
 
 
