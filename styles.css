@@ -1,8 +1,7 @@
 
 
 .title {
-    
-    border: 2px solid rgb(139, 90, 0);
+     border: 2px solid rgb(139, 90, 0);
     color: white;
     font-style: bold;
     padding: 25px 32px;
@@ -12,8 +11,6 @@
     width: 400px;
     height: 50px;
     background: navy;
-    
-    
 }
 
 .player1, .score1, .player2, .score2 {
@@ -22,8 +19,6 @@
     height: 40px;
     background: navy;
     color: white;
-
-    
 }
 
 
@@ -35,9 +30,6 @@
 .players-info2 {
     margin-left: auto;
 }
-
-        
-
 
 .question-title {
    
@@ -72,17 +64,15 @@
 
 .answers {
     margin-top: 45px;
-}
+    }
 
 
 body {
     background-image: url("https://img1.etsystatic.com/169/0/13392950/il_fullxfull.1180147577_gf79.jpg");
     background-size: cover;
-
+    background-attachment: fixed;
 }
 
-
-    
 .answers div:hover {
     background-color: rgb(139, 90, 0);
 }
