@@ -45,6 +45,7 @@ Some of the Challenges I had:
 - different set of questions for player 2 to answer
 - a timer 
 - add more CSS to make it more interactive
+- add option for a tie 
 
 
 
