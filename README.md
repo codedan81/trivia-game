@@ -27,7 +27,7 @@ This app is an app for Sports Enthusists to have a central location to talk abou
 4. facebook/google log in option
 
 
-#Links
+# Links
 
 https://danielhicksjr.github.io/trivia-game/
 
