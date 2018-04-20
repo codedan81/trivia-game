@@ -36,7 +36,7 @@
                     },
                     correctAnswer:  "Steve Jobs"
         },{
-                        question: "In what city was Starbucks created?",
+                        question: "What city was Starbucks created?",
         answers:    {
                     a: "Los Angeles",
                     b: "Seattle",
@@ -93,7 +93,7 @@
             changeQuestion()
         } else {
             if(incorrectAnswers == 0 ) {
-                swal("You are not correct!", "You have one more try!")
+                swal("You are not correct!", "try again!")
                 incorrectAnswers +=1
             } else if(incorrectAnswers > 0){
                 swal("Incorrect Again!", "Next Question")
@@ -102,13 +102,12 @@
         }
     }
 
-    // answers are selected 
+   
     for(var i =0; i<answerBoxes.length; i++) {
         answerBoxes[i].addEventListener("click", answerClickHandler)
 
     }
 
-    // function on when to change to next question
     function changeQuestion() {
         if(questionIndex < questions.length) {
             currentQuestion = questions[questionIndex]

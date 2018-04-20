@@ -1,51 +1,34 @@
-# Trivia Game
-
-# Objective 
-
-The object of the game is:
-
- - Two Players go head to head.
- - Each player gets a turn to answer all of the questions.
- - If you get an answer wrong, you get one additional attempt to get the answer correct.
- - Each correct answer is scored a point. 
- - At the end of the game, the Player with the most points win.
+# SportHUB Application
+This app is an app for Sports Enthusists to have a central location to talk about all things sports and engage with other sports fans and talk about related topics and current stories in the world of sports. 
 
 # Technologies Used
 
-- HTML, CSS, JavaScript and jQuery
-
+1. NodeJS, Express, Mongoose SQL, REACT, HTML, CSS, JavaScript, jQuery, Bootstrap, NPM Packages
 # User Stories
 
-- As a User, when playing a trivia game, I want to be able to compete against someone and have a definite outcome (win/loss).
-- As a User, I like a Trivia Game that has multiple choice options to simplify the answering process.
-- As a User, I'd like the questions to be on topics I'm familiar with.
-- As a User, when playing a trivia game, I dont want to answer too many questions, but just enough.
-- As a User, I want to enjoy the game and want to play it again in the future.  
+1. As a User, I like an app that has a central location to talk about anything sports related. 
+2. As a User, I like an app that is simple and easy to use.
+3. As a User, I want to know that my information is secure.
+4.   
 
-# Challenges
+# Approach Taken
 
-Some of the Challenges I had:
+1. I wanted to create an app based on something I enjoyed.
+2. I wanted to create an app that would be of interest to a user.  
+3. I wanted to implement the knowlegde I've learned from class to make a complete app.
+4. I wanted to test myself to get out of my comfort zone to create a useful app.
 
-- The creative process; thinking of how I wanted the game to function
-- Getting the Game the questions to reset 
-- CSS!! 
-- Putting my thoughts of how the game should be and translating it to a code. 
  
-
-# The Creative Process 
-
-- I wanted to create a trivia game with question/answer options anyone could play.  
-- I wanted to keep it simple and not over complicate what I wanted to accomplish. 
-- Most importantly, I wanted to take this as an opportunity to apply what I have learned so far in my new found journey into coding, and come out of the making of this project with more knowledge and understanding of HTML/CSS/JavaScript/jQuery than I had going into the beginning of this process.  I look forward to learning new, exciting things and creating more projects. 
-
-
 # Things I could add in the future 
 
-- a button to auto reset game once completed
-- different set of questions for player 2 to answer
-- a timer 
-- add more CSS to make it more interactive
-- add option for a tie 
+1. better CSS/Bootstrap for visual presentation.
+2. a ratings/like/unlike option.
+3. a chat option 
+4. facebook/google log in option
 
+
+#Links
+
+https://danielhicksjr.github.io/trivia-game/
 
 
