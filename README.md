@@ -1,30 +1,28 @@
-# SportHUB Application
-This app is an app for Sports Enthusists to have a central location to talk about all things sports and engage with other sports fans and talk about related topics and current stories in the world of sports. 
+# Trivia Game Application
+Two players go head to head answering trivia questions. The player with the most correct answers wins.
 
 # Technologies Used
 
-1. NodeJS, Express, Mongoose SQL, REACT, HTML, CSS, JavaScript, jQuery, Bootstrap, NPM Packages
+1. HTML, CSS, JavaScript 
+
 # User Stories
 
-1. As a User, I like an app that has a central location to talk about anything sports related. 
-2. As a User, I like an app that is simple and easy to use.
-3. As a User, I want to know that my information is secure.
-4.   
+1. As a User, I like an app that is easy to use. 
+2. As a User, I like an app that doesn't have a ton of questions to answer.
+3. As a User, I would like to go against another opponent to see who wins.
 
 # Approach Taken
 
-1. I wanted to create an app based on something I enjoyed.
+1. I wanted to create an app that was fun.
 2. I wanted to create an app that would be of interest to a user.  
-3. I wanted to implement the knowlegde I've learned from class to make a complete app.
-4. I wanted to test myself to get out of my comfort zone to create a useful app.
+3. I wanted to create simple app that utilized the knowledge I've learned and implement it in a visual way.
 
  
 # Things I could add in the future 
 
-1. better CSS/Bootstrap for visual presentation.
-2. a ratings/like/unlike option.
-3. a chat option 
-4. facebook/google log in option
+1. better CSS.
+2. a chat option to talk back and forth with opponent during game.
+3. a countdown to show user how much time to answer question.
 
 
 # Links
