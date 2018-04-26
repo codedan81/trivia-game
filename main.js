@@ -84,9 +84,11 @@
     function answerClickHandler(){
         if(this.innerText == currentQuestion.correctAnswer){
             if(currentPlayer == 1){
+                swal("You are correct!", "Nice Job")
                 playerOneScore += 1
                 playerOneScoreDisplay.text("Score: " + playerOneScore)
             } else if (currentPlayer == 2){
+                swal("You are correct!", "Nice Job")
                 playerTwoScore += 1
                 playerTwoScoreDisplay.text("Score: " + playerTwoScore)
             }
